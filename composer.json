@@ -1,0 +1,32 @@
+{
+    "name" : "mlocati-concrete5-packages/cloudfront_proxy_ip_provider",
+    "description" : "concrete5 package for proxy_ip_manager to support resolving CloudFront records",
+    "type" : "concrete5-package",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Michele Locati",
+            "email" : "michele@locati.it",
+            "homepage" : "https://mlocati.github.io",
+            "role" : "author"
+        }
+    ],
+    "homepage" : "https://github.com/mlocati/cloudfront_proxy_ip_provider",
+    "support" : {
+        "issues" : "https://github.com/mlocati/cloudfront_proxy_ip_provider/issues",
+        "source" : "https://github.com/mlocati/cloudfront_proxy_ip_provider"
+    },
+    "keywords" : [
+        "concrete5",
+        "package",
+        "proxy",
+        "ip",
+        "trust",
+        "forward",
+        "header",
+        "cloudfront"
+    ],
+    "require": {
+        "mlocati-concrete5-packages/proxy_ip_manager": "*"
+    }
+}
